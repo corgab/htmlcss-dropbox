@@ -95,8 +95,55 @@ body {
     width: 70%;
 }
 
+.col-40 {
+    width: calc(4 * 100% / 12 );
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
 .max-height {
     max-height: 480px;
 }
 
+.container-sm {
+    max-width: 1000px;
+	margin: 0 auto;
+    padding: 10px;
+}
 
+.business-title > *{
+    padding: 20px 0px;
+}
+
+.col-header {
+    text-align: center;
+}
+
+.col-body {
+    padding: 40px;
+}
+
+.body__header {
+    padding: 20px 0px;
+}
+
+.body__main {
+    padding: 20px 0px;
+}
+
+.body__footer {
+    padding: 20px 0px;
+}
+
+.body__header > * {
+    padding: 5px 0px;
+}
+
+.body__main > * {
+    padding: 5px 0px;
+}
+
+.body__footer > * {
+    padding: 5px 0px;
+}
