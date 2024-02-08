@@ -81,18 +81,14 @@ body {
 
 .col-30 {
     width: 30%;
-}
-
-.col-30 p {
-    padding-bottom: 20px;
-}
-
-.annulla {
-    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .col-30 .material-symbols-outlined {
-    margin: auto;
+    margin-top: auto;
 }
 
 .col-70 {
