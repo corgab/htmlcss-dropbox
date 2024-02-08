@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.button {
+	line-height: 40px;
+	font-size: 16px;
+	padding: 0 20px;
+	display: inline-block;
+}
+
+.bg-blue {
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+}
+
+/* HEADER */
+
+.container-lg{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* da sistemare */
+
+.menu > li{
+    padding: 20px;
+}
