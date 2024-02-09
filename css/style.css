@@ -180,5 +180,9 @@ hr {
     margin: 10px;
 }
 
-
+.business-title span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
