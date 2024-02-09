@@ -52,6 +52,7 @@ body {
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -96,11 +97,14 @@ body {
     width: 70%;
 }
 
-.col-40 {
+.col-4 {
     width: calc(4 * 100% / 12 );
-    min-height: 450px;
-    display: flex;
-    flex-direction: column;
+    padding: 0px 25px;
+}
+
+
+.nav {
+    justify-content: space-between;
 }
 
 .max-height {
@@ -113,36 +117,32 @@ body {
     padding: 10px;
 }
 
-.business-title > *{
-    padding: 20px 0px;
-}
-
-.col-header {
-    text-align: center;
-}
-
 .col__header {
     padding: 10px 0px;
-    border: 1px solid black;
+    border-bottom: 4px solid rgba(237, 237, 238, 1);
     text-align: center;
 }
 
-.col-body {
-    border: 1px solid black;
-    min-height: 915px;
+.col__section > *{
+    padding: 10px;
+}
+
+.col__footer > *{
+    padding: 5px;
+}
+
+.col__footer span {
+    color: rgba(0, 97, 255, 1);
 }
 
 .col__section {
-    padding: 50px 10px;
-}
-
-.col__section > * {
-    padding: 5px 0;
+    padding: 15px 10px;
 }
 
 .col__section .button {
-    padding: 0px 55px;
-    
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .buy-now {
@@ -153,4 +153,32 @@ hr {
     margin: 0px 30px;
     width: 50px;
 }
+
+.card {
+    height: 100%;
+    border: 5px solid rgba(237, 237, 238, 1);
+}
+
+.col-100 {
+    width: 100%;
+    padding: 30px 25px
+}
+
+.col__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+
+.col__main {
+    margin: 10px;
+}
+
+.col__main > * {
+    margin: 10px;
+}
+
+
 
