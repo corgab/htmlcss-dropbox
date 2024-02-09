@@ -121,30 +121,36 @@ body {
     text-align: center;
 }
 
+.col__header {
+    padding: 10px 0px;
+    border: 1px solid black;
+    text-align: center;
+}
+
 .col-body {
-    padding: 40px;
+    border: 1px solid black;
+    min-height: 915px;
 }
 
-.body__header {
-    padding: 20px 0px;
+.col__section {
+    padding: 50px 10px;
 }
 
-.body__main {
-    padding: 20px 0px;
+.col__section > * {
+    padding: 5px 0;
 }
 
-.body__footer {
-    padding: 20px 0px;
+.col__section .button {
+    padding: 0px 55px;
+    
 }
 
-.body__header > * {
-    padding: 5px 0px;
+.buy-now {
+    text-decoration: underline;
 }
 
-.body__main > * {
-    padding: 5px 0px;
+hr {
+    margin: 0px 30px;
+    width: 50px;
 }
 
-.body__footer > * {
-    padding: 5px 0px;
-}
