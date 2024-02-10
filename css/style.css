@@ -224,7 +224,7 @@ hr {
 
 
 .business-link { 
-    margin: 30px 25px;
+    margin: 25px 0px;
 }
 
 .statistic {
@@ -285,10 +285,29 @@ hr {
     background-color: rgba(180, 208, 231, 1);
 }
 
-.company-business .container-sm {
-}
-
-
 .company-business .col-50 {
     padding: 50px;
+}
+
+.faq-list {
+
+}
+
+.faq .material-symbols-outlined {
+    margin-left: 900px;
+}
+
+.faq-list li{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.faq-list li:first-child {
+    border-top: 1px solid black;
+}
+
+.faq-title {
+    padding: 10px 0px;
 }
