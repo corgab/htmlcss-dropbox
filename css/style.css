@@ -206,12 +206,16 @@ hr {
 
 .col-50 {
     width: 50%;
-    padding: 0px 25px;
 }
 
 
-.business h2 {
-    padding: 20px 25px;
+.business .plan {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.business-title {
+    padding: 20px 0px;
 }
 
 .business {
@@ -223,6 +227,10 @@ hr {
     margin: 30px 25px;
 }
 
+.statistic {
+    padding: 130px 0px;
+}
+
 .company-list img {
     width: 50%;
     height: 270px;
@@ -230,9 +238,13 @@ hr {
     padding: 50px;
     display: block;
 }
+.company-main {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 0px 15px;
+}
 
-.company-main > * {
-    padding: 45px;
+.company-main > * { 
+    padding: 0px 45px;
 }
 
 .company-list {
@@ -269,4 +281,14 @@ hr {
     background-color: rgba(255, 216, 48, 1);
 }
 
+.company-business {
+    background-color: rgba(180, 208, 231, 1);
+}
 
+.company-business .container-sm {
+}
+
+
+.company-business .col-50 {
+    padding: 50px;
+}
