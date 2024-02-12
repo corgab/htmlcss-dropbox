@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,8 @@ body {
     font-family: 'Open Sans';
 }
 
+/* STYLE */
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -41,12 +44,6 @@ body {
 	display: inline-block;
 }
 
-/* .button {
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 15px;
-} */
-
 .bg-blue {
     background-color: rgba(0, 97, 255, 1);
     color: white;
@@ -54,204 +51,7 @@ body {
 
 .bg-white {
     border: 1px solid black;
-
 }
-
-
-.justify-between {
-    justify-content: space-between;
-}
-/* HEADER */
-
-.container-lg{
-    width: 100%;
-}
-
-.row{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.menu > li{
-    padding: 20px;
-}
-
-.hero {
-    background-color: rgba(180, 208, 231, 1);
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 24px;
-}
-
-.title {
-    padding: 50px 0px;
-    font-weight: 700;
-    font-size: 80px;
-}
-
-.col-30 {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-}
-
-.col-30 .material-symbols-outlined {
-    margin-top: auto;
-    margin-bottom: 20px;
-}
-
-.col-70 {
-    width: 70%;
-}
-
-.col-4 {
-    width: calc(4 * 100% / 12 );
-}
-
-.nav {
-    justify-content: space-between;
-}
-
-.max-height {
-    max-height: 480px;
-}
-
-.container-sm {
-    max-width: 1000px;
-	margin: 0 auto;
-    padding: 10px;
-}
-
-.col__header {
-    padding: 10px 0px;
-    border-bottom: 4px solid rgba(237, 237, 238, 1);
-    text-align: center;
-}
-
-.col__section > *{
-    padding: 10px;
-}
-
-.col__footer > *{
-    padding: 5px;
-}
-
-.col__footer span {
-    color: rgba(0, 97, 255, 1);
-}
-
-.col__section {
-    padding: 15px 10px;
-}
-
-.col__section .button {
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.a-reset {
-    text-decoration: underline;
-}
-
-hr {
-    margin: 0px 30px;
-    width: 50px;
-}
-
-.plans {
-    padding: 10px 25px;
-}
-
-.card {
-    height: 100%;
-    border: 5px solid rgba(237, 237, 238, 1);
-    
-}
-
-.col-100 {
-    width: 100%;
-    padding: 30px 25px
-}
-
-.col__title {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.col__main {
-    margin: 10px;
-}
-
-.col__main > * {
-    margin: 10px;
-}
-
-.business-title span {
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.col-50 {
-    width: 50%;
-}
-
-
-.business .plan {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.business-title {
-    padding: 20px 0px;
-}
-
-.business {
-    margin: 60px 0px;
-}
-
-
-.business-link { 
-    margin: 25px 0px;
-}
-
-.statistic {
-    padding: 130px 0px;
-}
-
-.company-list img {
-    width: 50%;
-    height: 270px;
-    line-height: 40px;
-    padding: 50px;
-    display: block;
-}
-.company-main {
-    background-color: rgba(245, 245, 245, 1);
-    padding: 0px 15px;
-}
-
-.company-main > * { 
-    padding: 0px 45px;
-}
-
-.company-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 
 .bg-arizona {
     background-color: rgba(97, 8, 43, 1);
@@ -285,12 +85,219 @@ hr {
     background-color: rgba(180, 208, 231, 1);
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12 );
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.max-height {
+    max-height: 480px;
+}
+
+.container-sm {
+    max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container-lg{
+    width: 100%;
+}
+
+.row{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > li{
+    padding: 20px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+.title {
+    padding: 50px 0px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.col-30 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+
+/* HEADER */
+
+.col__footer > *{
+    padding: 5px;
+}
+
+.col__footer span {
+    color: rgba(0, 97, 255, 1);
+}
+
+.hero {
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.col-30 .material-symbols-outlined {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.col__header {
+    padding: 10px 0px;
+    border-bottom: 4px solid rgba(237, 237, 238, 1);
+    text-align: center;
+}
+
+.col__section > *{
+    padding: 10px;
+}
+
+.col__section {
+    padding: 15px 10px;
+}
+
+.col__section .button {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.a-reset {
+    text-decoration: underline;
+    color: rgba(113, 113, 245, 1)
+}
+
+hr {
+    margin: 0px 30px;
+    width: 50px;
+}
+
+/* BODY */
+
+.plans {
+    padding: 25px 25px 25px 0px;
+}
+
+.card {
+    height: 100%;
+    border: 5px solid rgba(237, 237, 238, 1);
+    
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.col__main {
+    margin: 10px;
+}
+
+.col__main > * {
+    margin: 10px;
+}
+
+.business-title span {
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+
+.business .plan {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.business-title {
+    padding: 20px 0px;
+}
+
+.business {
+    margin: 60px 0px;
+}
+
+
+.business-link { 
+    margin: 60px 0px;
+}
+
+.statistic {
+    margin: 200px 0px;
+}
+
+
+
+.partner {
+    margin: 125px 0px;
+}
+
+.company-list img {
+    width: 50%;
+    height: 270px;
+    line-height: 40px;
+    padding: 50px;
+    display: block;
+}
+.company-main {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 40px;
+}
+
+.company-main > * { 
+    padding: 0px 45px;
+}
+
+.company-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .company-business .col-50 {
     padding: 50px;
 }
 
-.faq-list {
 
+.faq {
+    margin: 160px 0px;
 }
 
 .faq .material-symbols-outlined {
@@ -311,3 +318,28 @@ hr {
 .faq-title {
     padding: 10px 0px;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-title {
+    padding: 50px 0px;
+}
+
+.footer-list li  {
+    padding: 10px;
+}
+
+.col-20:first-child {
+    border-bottom: 1px solid rgba(153, 153, 153, 1);
+}
+
+
+.language {
+    padding: 50px;
+    color: rgba(153, 153, 153, 1);
+}
+
